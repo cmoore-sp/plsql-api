@@ -25,7 +25,7 @@ as
 	g_https_host			constant varchar2(50)				:= 'publicapis.org';
 	g_set_proxy				constant boolean						:= false; --false = use wallet\
 	g_wallet_path			constant varchar2(100) 			:= 'file:/oracle/admin/wallet/';
-	g_wallet_pwd			constant varchar2(100) 			:= 'Z2w-rUduprama';
+	g_wallet_pwd			constant varchar2(100) 			:= 'xxxxxxxxxxx';
 	g_proxy						constant varchar2(50)				:= 'https_proxy.sp.internal/'; -- 'https_proxy.internal'
 	g_url_base				constant varchar2(100)			:= 'https://api.publicapis.org/';
 
