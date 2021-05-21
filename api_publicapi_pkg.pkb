@@ -26,7 +26,7 @@ as
 	g_set_proxy				constant boolean						:= false; --false = use wallet\
 	g_wallet_path			constant varchar2(100) 			:= 'file:/oracle/admin/wallet/';
 	g_wallet_pwd			constant varchar2(100) 			:= 'xxxxxxxxxxx';
-	g_proxy						constant varchar2(50)				:= 'https_proxy.sp.internal/'; -- 'https_proxy.internal'
+	g_proxy						constant varchar2(50)				:= 'https_proxy.internal/'; 
 	g_url_base				constant varchar2(100)			:= 'https://api.publicapis.org/';
 
 	g_qdf							constant varchar2(20)				:= 'YYYY-MM-DD'; -- query date format
